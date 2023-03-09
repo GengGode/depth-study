@@ -6,7 +6,7 @@
 - git clone
 - pip -r
 - data
-- cudann
+- cudann `sudo apt install nvidia-cudnn`
 ```
 set PYTHONPATH=. 
 set CUDA_VISIBLE_DEVICES=0 
