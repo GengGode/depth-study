@@ -1,9 +1,9 @@
 教程[link](https://www.yuque.com/sunsa-i3ayc/sivu7h/qw2eg7win8unbwn0)
 
 - python
-- venv
+- venv `source venv/bin/activate`
 - pytorch
-- git clone
+- git clone 
 - pip -r
 - data
 - cudann `sudo apt install nvidia-cudnn`
