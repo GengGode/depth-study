@@ -13,3 +13,6 @@ set CUDA_VISIBLE_DEVICES=0
 python data_gen/binarize.py --config configs/acoustic/nomidi.yaml
 python run.py --config configs/acoustic/nomidi.yaml --exp_name $MY_DS_EXP_NAME --reset
 ```
+
+- 可视化 `tensorboard --logdir=checkpoints\$MY_DS_EXP_NAME\lightning_logs\lastest`
+- 可视化 `tensorboard --logdir=checkpoints\test\lightning_logs\lastest`
